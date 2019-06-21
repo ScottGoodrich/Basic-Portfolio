@@ -55,7 +55,7 @@ body {
 	top: 0px;
 	background-color: #ffffff;
 	overflow: auto;
-	border-bottom: 1px solid #777777;
+	border-bottom: 1.5px solid #dddddd;
 }
 h1 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
@@ -81,7 +81,7 @@ a {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 18px;
 	background-color: #ffffff;
-	color: #777777;
+	color: #dddddd;
 	padding: 9px;
 	margin-right: 200px;
 }
@@ -149,8 +149,6 @@ nav {
 	padding: 20px;
 }
 .PortMain {
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-weight: bold;
 	margin-top: 100px;
 	width: 960px;
 	overflow: auto;
@@ -161,78 +159,47 @@ nav {
 }
 .container1 {
 	position: relative;
-	text-align: center;
 	color: #ffffff;
-}
-.hangman {
-	position: absolute;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	background-color: #4aaaa5;
-	color: #ffffff;
-	font-size: 18px;
-	padding: 20px;
-	top: 50%;
-	bottom: 50%;
+	float: left;
+	margin: 15px;
 }
 .container2 {
 	position: relative;
-	text-align: center;
-	color: #ffffff
-}
-.rpg {
-	position: absolute;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	background-color: #4aaaa5;
 	color: #ffffff;
-	font-size: 18px;
-	padding: 20px;
-	top: 50%;
-	bottom: 50%;
+	float: left;
+	margin: 15px;
 }
 .container3 {
 	position: relative;
-	text-align: center;
 	color: #ffffff;
-}
-.trivia {
-	position: absolute;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	background-color: #4aaaa5;
-	color: #ffffff;
-	font-size: 18px;
-	padding: 20px;
-	top: 50%;
-	bottom: 50%;
+	clear: both;
+	float: left;
+	margin: 15px;
 }
 .container4 {
 	position: relative;
-	text-align: center;
 	color: #ffffff;
-}
-.widget {
-	position: absolute;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	background-color: #4aaaa5;
-	color: #ffffff;
-	font-size: 18px;
-	padding: 20px;
-	top: 50%;
-	bottom: 50%;
+	float: left;
+	margin: 15px;
 }
 .container5 {
 	position: relative;
-	text-align: center;
 	color: #ffffff;
+	clear: both;
+	margin: 15px;
 }
-.rock {
+h3 {
 	position: absolute;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	background-color: #4aaaa5;
 	color: #ffffff;
+	width: 300px;
 	font-size: 18px;
-	padding: 20px;
-	top: 50%;
-	bottom: 50%;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	top: 65%;
 }
 footer {
 	line-height: 2.4;
@@ -243,7 +210,7 @@ footer {
 	padding: 20px;
 	padding-left: 258px;
 	background-color: #777777;
-	border-top: 5px solid #4aaaa5;
+	border-top: 8px solid #4aaaa5;
 }
 #submit {
 	background-color: #4aaaa5;
